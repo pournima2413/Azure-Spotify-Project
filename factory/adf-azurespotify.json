@@ -1,0 +1,15 @@
+{
+	"name": "adf-azurespotify",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abe3cf27-d01b-42e8-8fc7-4365c22a0ba0",
+		"tenantId": "d7f3e79a-943d-4ace-aeab-209030807508"
+	}
+}
