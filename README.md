@@ -12,7 +12,7 @@ This project demonstrates an end-to-end **Azure Data Engineering pipeline** that
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](architecture/Data_Lake.jpg)
+![Architecture Diagram](Data_Lake.jpg)
 
 > **Flow:** SQL DB + GitHub → Azure Data Factory → Bronze Data Lake → PySpark (Silver) → Delta Live Tables (Gold) → Azure Synapse Warehouse
 > Security layer: Azure Key Vault + Microsoft Entra ID
